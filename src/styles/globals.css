@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.PhoneInputInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+@layer base {
+  :root {
+    /* Defaults Added By Me */
+    /* font-size: 62.5% !important; */
+  }
+}
+
+.dashboardContainer {
+  @apply bg-white lg:my-[25px] lg:mx-[36px] min-h-screen shadow-sm px-4 lg:px-[60px] py-[40px] rounded-lg max-w-full;
+}
